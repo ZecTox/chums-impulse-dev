@@ -4207,7 +4207,7 @@ theme.recentlyViewed = {
   
       unload();
   
-      if (bar.dataset.blockCount === 1) {
+      if (bar.dataset.blockCount === '1') {
         return;
       }
   
@@ -6852,6 +6852,7 @@ theme.recentlyViewed = {
       productVideo: '.product__video',
       videoParent: '.product__video-wrapper',
       slide: '.product-main-slide',
+      slideGroupAll: '.product-main-slide[data-group-all]',
       currentSlide: '.is-selected',
       startingSlide: '.starting-slide',
       variantType: '.variant-wrapper',
@@ -7271,6 +7272,10 @@ theme.recentlyViewed = {
   
       // Show/hide thumbnails based on current image set
       updateImageSetThumbs: function(set) {
+        this.cache.thumbSlider.querySelectorAll('.product__thumb-item[data-group-all]').forEach(thumb => {
+          // thumb.dataset.setName = 'color';
+          thumb.dataset.group = set;
+        })
         this.cache.thumbSlider.querySelectorAll('.product__thumb-item').forEach(thumb => {
           thumb.classList.toggle(classes.hidden, thumb.dataset.group !== set);
         });
@@ -7675,6 +7680,10 @@ theme.recentlyViewed = {
         // Override default settings if image set feature enabled
         if (this.settings.imageSetName) {
           var imageSetArgs = this.imageSetArguments(variant);
+          this.cache.mainSlider.querySelectorAll(selectors.slideGroupAll).forEach(el => {
+            el.dataset.setName = this.settings.imageSetName;
+            el.dataset.group = this.settings.imageSetName + '_' + this.settings.currentImageSet;
+          })
           mainSliderArgs = Object.assign({}, mainSliderArgs, imageSetArgs);
           this.updateImageSetThumbs(mainSliderArgs.imageSet);
         }

@@ -1,17 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "8f70399d-a2b5-43d6-b922-9090afb1dc6d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -32,8 +39,7 @@
         },
         "e662de6e-b2ed-49dc-82c6-7446b0fc2b38": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -53,14 +59,14 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
         "trust_badge_eV7Bmi": {
           "type": "trust_badge",
           "settings": {
-            "trust_image": "shopify:\/\/shop_images\/FAST_SHIPPING.jpg"
+            "trust_image": "shopify://shop_images/FAST_SHIPPING.jpg"
           }
         }
       },
@@ -91,12 +97,12 @@
     "text_and_image_WdpLyc": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/bandit-zip_lifestyle-main.jpg",
+        "image": "shopify://shop_images/bandit-zip_lifestyle-main.jpg",
         "image_mask": "rounded",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Feature Callout 1",
-        "text": "<p>Feature callout section to include product-specific lifestyle images. Is this section now in the template thus appearing on all product pages? Or only when we populate it? Possible to have this section only appear when there is content to show?<\/p>",
+        "text": "<p>Feature callout section to include product-specific lifestyle images. Is this section now in the template thus appearing on all product pages? Or only when we populate it? Possible to have this section only appear when there is content to show?</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -112,12 +118,12 @@
     "text_and_image_4wd9e3": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/surfshorts-flow_lifestyle-main.jpg",
+        "image": "shopify://shop_images/surfshorts-flow_lifestyle-main.jpg",
         "image_mask": "rounded",
         "image2_mask": "rounded",
         "subtitle": "",
         "title": "Feature Callout 2",
-        "text": "<p>Another great feature<\/p>",
+        "text": "<p>Another great feature</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -141,9 +147,8 @@
       "type": "apps",
       "blocks": {
         "f839ea73-e5ff-4e97-803f-95bcf54850ea": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -170,8 +175,7 @@
     },
     "collection-return": {
       "type": "collection-return",
-      "settings": {
-      }
+      "settings": {}
     },
     "1699981839e41c7a3d": {
       "type": "apps",

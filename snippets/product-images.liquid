@@ -5,6 +5,7 @@
   sizeVariable
   fallback
   mobile_layout
+  current_variant_sku - current sku being rendered
 {% endcomment %}
 
 {%- liquid
@@ -75,6 +76,7 @@
         class="product__thumbs product__thumbs--{{ thumbnail_position }} product__thumbs-placement--{{ image_position }}{% if product.media.size == 1 %} medium-up--hide{% endif %} small--hide"
         data-position="{{ thumbnail_position }}"
         data-arrows="{{ thumbnail_arrows }}"
+        data-show-sku="{{ current_variant_sku }}"
         data-aos>
         {%- if thumbnail_arrows -%}
           <button type="button" class="product__thumb-arrow product__thumb-arrow--prev hide">
@@ -100,7 +102,9 @@
                 data-index="{{ forloop.index0 }}"
                 {% if image_set %}
                   data-set-name="{{image_set_group}}"
-                  data-group="{{image_set_full}}"
+                  data-group="{{ image_set_full }}"
+                  {% else %}
+                data-group-all
                 {% endif %}>
                 <a
                   href="{{ media.preview_image | img_url: product_zoom_size }}"

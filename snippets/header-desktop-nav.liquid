@@ -8,7 +8,7 @@
 -%}
 
 <ul
-  class="site-nav site-navigation small--hide"
+  class="site-nav site-navigation medium--hide"
 >
   {%- for link in main_menu.links limit: limit offset: offset -%}
     {%- liquid
@@ -155,7 +155,7 @@
                 {% if dropdown_image != blank %}
                     {% assign defaultAltText = link.title | append: ' Lifestyle' %}
                     {% assign altText = dropdown_image.alt | default: defaultAltText %}
-                    <div class="site-nav__dropdown-image">
+                    <div class="site-nav__dropdown-image" role="presentation">
                         {{ dropdown_image | image_url: width: 350 | image_tag: loading: 'eager', alt: altText }}
                     </div>
                 {% endif %}

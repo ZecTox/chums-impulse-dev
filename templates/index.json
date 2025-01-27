@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -10,21 +19,41 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/pages\/tie-dye-collection-2023",
+            "link": "shopify://blogs/news/stomping-grounds-tyler-woolcott",
             "link_text": "",
             "link_2": "",
-            "link_text_2": "Shop all",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Chums_TieDye_Campaign_WebHero_1600x500_Oct2023.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Chums_TieDye_Campaign_WebHeroMobile_480x680_Oct2023.jpg",
+            "image": "shopify://shop_images/StompingGrounds_Tyler_DesktopHero_3dc33bd7-81d3-40c9-a7bb-fcc170782292.jpg",
+            "image_mobile": "shopify://shop_images/StompingGrounds_Tyler_MobileHero_7332663b-9edb-4225-872f-840a98b4fe86.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cwtQaT": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://collections/leather",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Beaded_LeatherRetainers_DesktopHero_38bb1acc-4b60-4966-9d9c-5b3273a144a8.jpg",
+            "image_mobile": "shopify://shop_images/Beaded_LeatherRetainers_MobileHero_51f7da9f-9a92-4111-8e01-2e5006d1bf4d.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "slideshow-0",
+        "image_cwtQaT"
       ],
       "settings": {
         "section_height": "natural",
@@ -67,213 +96,167 @@
         "divider": false
       }
     },
-    "promo-grid": {
-      "type": "promo-grid",
+    "nav_image_blocks_pt44JC": {
+      "type": "nav-image-blocks",
       "blocks": {
-        "promo-0": {
-          "type": "advanced",
+        "nav_image_dTmfWK": {
+          "type": "nav_image",
           "settings": {
-            "subheading": "New Product Drop",
-            "heading": "The Ripcord Retainer",
-            "textarea": "Our most advanced rope retainer ever featuring interchangeable ends",
-            "cta_text1": "Shop Now",
-            "cta_link1": "shopify:\/\/products\/ripcord-retainer",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/ripcord_lifestyle-2.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "#cf0a2c",
-            "boxed": false,
-            "framed": false
+            "image": "shopify://shop_images/RetainersHome.jpg",
+            "link": "shopify://collections/chums",
+            "column_start": 1,
+            "column_span": 2,
+            "row_start": 1,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "auto"
           }
         },
-        "promo-1": {
-          "type": "advanced",
+        "nav_image_qKHifC": {
+          "type": "nav_image",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "image": "shopify://shop_images/Apparel_1.jpg",
+            "link": "shopify://collections/apparel",
+            "column_start": 3,
+            "column_span": 1,
+            "row_start": 1,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "auto"
+          }
+        },
+        "nav_image_DpTqJN": {
+          "type": "nav_image",
+          "settings": {
+            "image": "shopify://shop_images/BAGS_Tile3.jpg",
+            "link": "shopify://collections/bags",
+            "column_start": 4,
+            "column_span": 1,
+            "row_start": 1,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "auto"
+          }
+        },
+        "nav_image_BgzzVG": {
+          "type": "nav_image",
+          "settings": {
+            "image": "shopify://shop_images/Wallets3.jpg",
+            "link": "",
+            "column_start": 1,
+            "column_span": 1,
+            "row_start": 2,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "stretch"
+          }
+        },
+        "nav_image_wEbkVP": {
+          "type": "nav_image",
+          "settings": {
+            "image": "shopify://shop_images/Accessories2.jpg",
+            "link": "",
+            "column_start": 2,
+            "column_span": 1,
+            "row_start": 2,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "auto"
+          }
+        },
+        "nav_image_7EA7c7": {
+          "type": "nav_image",
+          "settings": {
+            "image": "shopify://shop_images/NEW_3_7.jpg",
+            "link": "",
+            "column_start": 3,
+            "column_span": 2,
+            "row_start": 2,
+            "row_span": 1,
+            "justify_self": "stretch",
+            "align_self": "auto"
           }
         }
       },
       "block_order": [
-        "promo-0",
-        "promo-1"
+        "nav_image_dTmfWK",
+        "nav_image_qKHifC",
+        "nav_image_DpTqJN",
+        "nav_image_BgzzVG",
+        "nav_image_wEbkVP",
+        "nav_image_7EA7c7"
       ],
       "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
-      ],
-      "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 4,
-        "enable_gutter": true
-      }
-    },
-    "promo-grid2": {
-      "type": "promo-grid",
-      "blocks": {
-        "promo2-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 720,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "promo2-1": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo2-2": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
-          }
-        }
-      },
-      "block_order": [
-        "promo2-0",
-        "promo2-1",
-        "promo2-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
         "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "image": "shopify:\/\/shop_images\/SurfshortsWebArt.jpg",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": false,
-        "parallax_direction": "top",
-        "lazyload_images": true
+        "template_columns": 4,
+        "template_rows": 2,
+        "column_gap": 10,
+        "row_gap": 10,
+        "justify_items": "stretch",
+        "align_items": "stretch",
+        "justify_content": "flex-start",
+        "align_content": "normal",
+        "divider": false
       }
     },
-    "1710957541a9b8e659": {
-      "type": "apps",
+    "featured_collection_aAB9dQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Customer Favorites",
+        "home_featured_products": "best-selling-eyewear-retainers",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "slideshow_3hRaVr": {
+      "type": "slideshow",
       "blocks": {
-        "instafeed_app_block_FRkLzt": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "image_bxwMVV": {
+          "type": "image",
           "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "html_area": ""
+            "top_subheading": "",
+            "title": "SHOP WALLETS",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://collections/wallets",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/SurfshortsWebArt.jpg",
+            "image_mobile": "shopify://shop_images/SurfshortsWebArt_Mobile2_1.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "instafeed_app_block_FRkLzt"
+        "image_bxwMVV"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_YjUiXQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "wallets",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
       }
     },
     "blog-posts": {
@@ -290,17 +273,40 @@
         "blog_image_size": "wide",
         "divider": false
       }
+    },
+    "1710957541a9b8e659": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_FRkLzt": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_FRkLzt"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection",
     "rich-text",
-    "promo-grid",
-    "featured-collections",
-    "promo-grid2",
-    "background-image-text",
-    "1710957541a9b8e659",
-    "blog-posts"
+    "nav_image_blocks_pt44JC",
+    "featured_collection_aAB9dQ",
+    "slideshow_3hRaVr",
+    "featured_collection_YjUiXQ",
+    "blog-posts",
+    "1710957541a9b8e659"
   ]
 }

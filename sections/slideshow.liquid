@@ -70,6 +70,8 @@
       <div class="{% if natural_height %}hero-natural--{{ section.id }}{% endif %}{% if natural_mobile_height %} hero-natural-mobile--{{ section.id }}{% endif %}">
         <div id="Slideshow-{{ section.id }}"
           class="hero hero--{{ section.settings.section_height }} hero--{{ section.id }} hero--mobile--{{ section.settings.mobile_height }} loading loading--delayed"
+             role="group"
+             aria-roledescription="carousel"
           {% if natural_height %}
             data-natural="true"
           {% endif %}
@@ -91,6 +93,8 @@
             <div
               {{ block.shopify_attributes }}
               class="slideshow__slide slideshow__slide--{{ block.id }}"
+              role="group" aria-roledescription="slide"
+              aria-label="{{ block.settings.image.alt | default: block.settings.title | escape }}"
               data-index="{{ forloop.index0 }}"
               data-id="{{ block.id }}">
 
@@ -221,7 +225,7 @@
               </div>
 
               {%- if link_slide -%}
-                <a href="{{ block.settings.link }}" class="hero__slide-link" aria-hidden="true"></a>
+                <a href="{{ block.settings.link }}" class="hero__slide-link" aria-hidden="true" tabindex="-1"></a>
               {%- endif -%}
 
               {%- if hero_text -%}

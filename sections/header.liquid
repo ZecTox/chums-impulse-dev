@@ -108,7 +108,7 @@
           <div role="navigation"
             class="header-layout header-layout--{{ section.settings.main_menu_alignment }}"
             data-logo-align="{{ logo_alignment }}">
-
+            <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
             {%- if logo_alignment == 'left' -%}
               <div class="header-item header-item--logo">
                 {%- render 'header-logo-block', section: section -%}

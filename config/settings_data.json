@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -7,6 +16,7 @@
     "color_borders": "#e8e8e1",
     "color_button": "#ce0e2d",
     "color_button_text": "#ffffff",
+    "color_sale_tag": "#ce0e2d",
     "color_cart_dot": "#ce202f",
     "color_small_image_bg": "#e5e5e5",
     "color_large_image_bg": "#0f0f0f",
@@ -45,6 +55,8 @@
     "button_style": "square",
     "icon_weight": "4px",
     "icon_linecaps": "miter",
+    "product_save_amount": true,
+    "product_save_type": "percent",
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "square",
@@ -61,12 +73,14 @@
     "collection_grid_gutter": true,
     "cart_type": "drawer",
     "cart_icon": "cart",
+    "cart_additional_buttons": false,
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/Chumsusa",
-    "social_twitter_link": "https:\/\/twitter.com\/ChumsUSA",
-    "social_instagram_link": "https:\/\/www.instagram.com\/chumsusa",
-    "social_youtube_link": "https:\/\/www.youtube.com\/user\/ChumsInc",
+    "social_facebook_link": "https://www.facebook.com/Chumsusa",
+    "social_twitter_link": "https://twitter.com/ChumsUSA",
+    "social_instagram_link": "https://www.instagram.com/chumsusa",
+    "social_youtube_link": "https://www.youtube.com/user/ChumsInc",
+    "favicon": "shopify://shop_images/Chums-Logo-Badge-Red-RGB.png",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": false,
     "breadcrumb": false,
@@ -86,24 +100,34 @@
           "collection_image_enable": true,
           "parallax": true
         }
+      },
+      "giftcard-header": {
+        "type": "giftcard-header",
+        "settings": {
+          "logo": "shopify://shop_images/Chums_Logo_Badge_Red_RGB_87dfbad8-0a4e-49d4-bbe5-6a365d4c916e.png",
+          "desktop_logo_width": 200,
+          "mobile_logo_width": 140
+        }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
+      },
+      "1232542678405107163": {
+        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -302,7 +326,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -335,7 +359,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -359,7 +383,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -370,7 +394,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -381,7 +405,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -494,8 +518,7 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -515,8 +538,7 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1526406521795": {
               "type": "menu",
@@ -543,8 +565,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
@@ -556,5 +577,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".btn.add-to-cart {color: var(--colorBtnPrimary); border-color: var(--colorBtnPrimary); font-weight: 700;}"
+    ]
   }
 }

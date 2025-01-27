@@ -80,7 +80,7 @@
         {%- render 'multi-selectors',
           locale_selector: locale_selector,
           currency_selector: currency_selector,
-          show_currency_flags: section.settings.show_currency_flags
+          show_currency_flags: section.settings.show_currency_flags,
           location: 'footer'
         -%}
       </div>
@@ -106,7 +106,7 @@
         {%- endif -%}
       </p>
     {%- endif -%}
-    <p class="footer__small-text">{{ powered_by_link }}</p>
+    <p class="footer__small-text footer--powered-by">{{ powered_by_link }}</p>
 
   </div>
 </footer>
