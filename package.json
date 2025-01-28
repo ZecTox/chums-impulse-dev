@@ -7,9 +7,10 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "dev": "shopify theme open --environment impulse && shopify theme dev --environment impulse",
+    "dev": "shopify theme dev --environment impulse",
+    "open": "shopify theme open --environment impulse",
     "pull": "shopify theme pull --environment impulse",
-    "start-dev": "npm run pull && npm run dev",
+    "start-dev": "npm run pull && npm run open && npm run dev",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   }
 }

@@ -931,6 +931,9 @@ theme.recentlyViewed = {
   
           if (type === 'radio' || type === 'checkbox') {
             input.checked = variant[index] === value
+            if (input.checked) {
+              input.dispatchEvent(new Event('updateSwatch'));
+            }
           } else {
             input.value = variant[index];
           }
@@ -2436,6 +2439,8 @@ theme.recentlyViewed = {
       document.querySelectorAll(this.config.open).forEach(btn => {
         btn.setAttribute('aria-expanded', 'false');
         btn.addEventListener('click', this.open.bind(this));
+  
+        btn.classList.remove('btn--not-ready')
       });
   
       this.modal.querySelectorAll(this.config.close).forEach(btn => {
@@ -3000,10 +3005,9 @@ theme.recentlyViewed = {
     function setupModelViewerListeners(model) {
       var xrButton = xrButtons[model.sectionId];
   
-      model.container.addEventListener('mediaVisible', function(event) {
+      model.container.addEventListener('mediaVisible', function() {
         xrButton.element.setAttribute('data-shopify-model3d-id', model.modelId);
         if (theme.config.isTouch) return;
-        if (!event.detail.autoplayMedia) return;
         model.modelViewerUi.play();
       });
   
@@ -3171,10 +3175,6 @@ theme.recentlyViewed = {
   
       // Register potential video modal links (when video has sound)
       theme.videoModal();
-  
-      if (btn) {
-        btn.classList.remove('quick-product__btn--not-ready');
-      }
     });
   }
   
@@ -4062,8 +4062,7 @@ theme.recentlyViewed = {
       const searchObj = {
         'q': searchTerm,
         'resources[limit]': 3,
-        'resources[limit_scope]': 'each',
-        'resources[options][unavailable_products]': 'last'
+        'resources[limit_scope]': 'each'
       };
   
       const params = this.paramUrl(searchObj);
@@ -4207,7 +4206,7 @@ theme.recentlyViewed = {
   
       unload();
   
-      if (bar.dataset.blockCount === '1') {
+      if (bar.dataset.blockCount === 1) {
         return;
       }
   
@@ -7067,7 +7066,9 @@ theme.recentlyViewed = {
         var swatches = this.container.querySelectorAll(this.selectors.variantColorSwatch);
         if (swatches.length) {
           swatches.forEach(swatch => {
-            swatch.addEventListener('change', function(evt) {
+            // CHUMS - 2025.01.27, previous event was 'change', and it doesn't
+            // seem to be getting triggered to hide variant images
+            swatch.addEventListener('updateSwatch', function(evt) {
               var color = swatch.dataset.colorName;
               var index = swatch.dataset.colorIndex;
               this.updateColorName(color, index);
@@ -7273,7 +7274,6 @@ theme.recentlyViewed = {
       // Show/hide thumbnails based on current image set
       updateImageSetThumbs: function(set) {
         this.cache.thumbSlider.querySelectorAll('.product__thumb-item[data-group-all]').forEach(thumb => {
-          // thumb.dataset.setName = 'color';
           thumb.dataset.group = set;
         })
         this.cache.thumbSlider.querySelectorAll('.product__thumb-item').forEach(thumb => {

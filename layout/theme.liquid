@@ -73,7 +73,7 @@
       predictiveSearchPrice: {{ settings.predictive_search_show_price | json }},
       quickView: {{ settings.quick_shop_enable }},
       themeName: 'Impulse',
-      themeVersion: "7.5.0"
+      themeVersion: "7.6.0"
     };
   </script>
 
@@ -94,6 +94,7 @@
   {%- endif -%}
 
   {% if request.design_mode %}
+    <script>theme.settings.email = {{ shop.email | json }}</script>
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
 
@@ -111,8 +112,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5BRKMS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+  {% comment %}Link to #MainContent moved to header for WCAG compliance{% endcomment %}
 
   <div id="PageContainer" class="page-container">
     <div class="transition-body">

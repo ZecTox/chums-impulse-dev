@@ -70,9 +70,9 @@
       "settings": {
         "title": "New 2024 Styles",
         "home_featured_products": "2024-products",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": false,
         "view_all": false,
         "divider": false
       }
@@ -93,109 +93,6 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
-      }
-    },
-    "nav_image_blocks_pt44JC": {
-      "type": "nav-image-blocks",
-      "blocks": {
-        "nav_image_dTmfWK": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/RetainersHome.jpg",
-            "link": "shopify://collections/chums",
-            "column_start": 1,
-            "column_span": 2,
-            "row_start": 1,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "auto"
-          }
-        },
-        "nav_image_qKHifC": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/Apparel_1.jpg",
-            "link": "shopify://collections/apparel",
-            "column_start": 3,
-            "column_span": 1,
-            "row_start": 1,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "auto"
-          }
-        },
-        "nav_image_DpTqJN": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/BAGS_Tile3.jpg",
-            "link": "shopify://collections/bags",
-            "column_start": 4,
-            "column_span": 1,
-            "row_start": 1,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "auto"
-          }
-        },
-        "nav_image_BgzzVG": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/Wallets3.jpg",
-            "link": "",
-            "column_start": 1,
-            "column_span": 1,
-            "row_start": 2,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "stretch"
-          }
-        },
-        "nav_image_wEbkVP": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/Accessories2.jpg",
-            "link": "",
-            "column_start": 2,
-            "column_span": 1,
-            "row_start": 2,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "auto"
-          }
-        },
-        "nav_image_7EA7c7": {
-          "type": "nav_image",
-          "settings": {
-            "image": "shopify://shop_images/NEW_3_7.jpg",
-            "link": "",
-            "column_start": 3,
-            "column_span": 2,
-            "row_start": 2,
-            "row_span": 1,
-            "justify_self": "stretch",
-            "align_self": "auto"
-          }
-        }
-      },
-      "block_order": [
-        "nav_image_dTmfWK",
-        "nav_image_qKHifC",
-        "nav_image_DpTqJN",
-        "nav_image_BgzzVG",
-        "nav_image_wEbkVP",
-        "nav_image_7EA7c7"
-      ],
-      "settings": {
-        "title": "",
-        "template_columns": 4,
-        "template_rows": 2,
-        "column_gap": 10,
-        "row_gap": 10,
-        "justify_items": "stretch",
-        "align_items": "stretch",
-        "justify_content": "flex-start",
-        "align_content": "normal",
         "divider": false
       }
     },
@@ -302,7 +199,6 @@
     "slideshow",
     "featured-collection",
     "rich-text",
-    "nav_image_blocks_pt44JC",
     "featured_collection_aAB9dQ",
     "slideshow_3hRaVr",
     "featured_collection_YjUiXQ",
