@@ -2,6 +2,31 @@
 
 {%- if section.settings.enable -%}
   {%- if section.settings.collection_image_enable and collection.image -%}
+    {% liquid
+      # Handle mobile images for collection banner
+      # Added by Steve - 2025.01.28
+      assign has_mobile_image = false
+      assign mobile_image = null
+      assign desktop_classes = 'collection-hero__image image-fit'
+      if collection.metafields.custom.mobile_lifestyle != blank
+        assign has_mobile_image = true
+        assign mobile_image = collection.metafields.custom.mobile_lifestyle.value
+        assign desktop_classes = 'small--hide collection-hero__image image-fit'
+        style
+
+        endstyle
+      endif
+    %}
+    {% if has_mobile_image %}
+      {% style %}
+        @media only screen and (max-width: 767px) {
+          .collection-hero {
+            height: auto;
+          }
+        }
+      {%endstyle%}
+    {% endif %}
+
     <div
       id="CollectionHeaderSection"
       data-section-id="{{ section.id }}"
@@ -18,10 +43,18 @@
           {%- render 'image-element',
               img: collection.image,
               img_width: 2400,
-              classes: 'collection-hero__image image-fit',
+              classes: desktop_classes,
               preload: true,
               loading: 'eager',
           -%}
+              {%- if has_mobile_image -%}
+              {%- render 'image-element',
+                img: mobile_image,
+                classes: 'medium-up--hide collection-hero__image',
+                preload: true,
+                loading: 'eager',
+              -%}
+              {%- endif %}
 
         {%- if section.settings.parallax -%}
             </div>

@@ -52,6 +52,14 @@
     "video_list_yGNW4T": {
       "type": "video-list",
       "blocks": {
+        "video_url_f7DhU6": {
+          "type": "video_url",
+          "settings": {
+            "title": "Storm Series",
+            "video_url": "https://youtu.be/IwAJPZIByj8",
+            "divider": false
+          }
+        },
         "video_url_BAq8MT": {
           "type": "video_url",
           "settings": {
@@ -91,14 +99,42 @@
             "video_url": "https://youtu.be/X8ZbSqLJlng",
             "divider": false
           }
+        },
+        "video_url_Gkj8jr": {
+          "type": "video_url",
+          "settings": {
+            "title": "Artist Series: Wasatch Andy",
+            "video_url": "https://youtu.be/NlbzW_niiA0",
+            "divider": false
+          }
+        },
+        "video_url_nRTm7V": {
+          "type": "video_url",
+          "settings": {
+            "title": "Artist Series: Kelly Halpin",
+            "video_url": "https://youtu.be/CVzBZoxEc5I",
+            "divider": false
+          }
+        },
+        "video_url_4Rn6ew": {
+          "type": "video_url",
+          "settings": {
+            "title": "Adventure Bound Stories: Unguided",
+            "video_url": "https://youtu.be/aCjv99yqcC8",
+            "divider": false
+          }
         }
       },
       "block_order": [
+        "video_url_f7DhU6",
         "video_url_BAq8MT",
         "video_url_TErA7t",
         "video_url_rVm4GJ",
         "video_url_iGRiMQ",
-        "video_url_yR3dJW"
+        "video_url_yR3dJW",
+        "video_url_Gkj8jr",
+        "video_url_nRTm7V",
+        "video_url_4Rn6ew"
       ],
       "settings": {
         "per_row": 2,
