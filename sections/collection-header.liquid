@@ -20,11 +20,11 @@
     {% if has_mobile_image %}
       {% style %}
         @media only screen and (max-width: 767px) {
-          .collection-hero {
-            height: auto;
-          }
+        .collection-hero {
+        height: auto;
         }
-      {%endstyle%}
+        }
+      {% endstyle %}
     {% endif %}
 
     <div
@@ -35,46 +35,47 @@
 
       <div class="collection-hero">
 
-        {%- if section.settings.parallax -%}
-          <parallax-image class="parallax-container">
-            <div class="parallax-image" data-movement="15%" data-parallax-image data-angle="{{ section.settings.parallax_direction }}">
-        {%- endif -%}
+      {%- if section.settings.parallax -%}
+        <parallax-image class="parallax-container">
+          <div class="parallax-image" data-movement="15%" data-parallax-image
+               data-angle="{{ section.settings.parallax_direction }}">
+            {%- endif -%}
 
-          {%- render 'image-element',
+            {%- render 'image-element',
               img: collection.image,
               img_width: 2400,
               classes: desktop_classes,
               preload: true,
               loading: 'eager',
-          -%}
-              {%- if has_mobile_image -%}
+            -%}
+            {%- if has_mobile_image -%}
               {%- render 'image-element',
                 img: mobile_image,
                 classes: 'medium-up--hide collection-hero__image',
                 preload: true,
                 loading: 'eager',
               -%}
-              {%- endif %}
+            {%- endif %}
 
-        {%- if section.settings.parallax -%}
-            </div>
-          </parallax-image>
+            {%- if section.settings.parallax -%}
+          </div>
+        </parallax-image>
         {%- endif -%}
 
-                {% if section.settings.collection_title_below == false %}
-        <div class="collection-hero__content">
-          <div class="page-width">
-            <header class="section-header section-header--hero">
-              <div class="section-header__shadow">
-                {%- render 'breadcrumbs' -%}
-                <h1 class="section-header__title">
-                  {{ collection.title }}
-                </h1>
-              </div>
-            </header>
+        {% if section.settings.collection_title_below == false %}
+          <div class="collection-hero__content">
+            <div class="page-width">
+              <header class="section-header section-header--hero">
+                <div class="section-header__shadow">
+                  {%- render 'breadcrumbs' -%}
+                  <h1 class="section-header__title">
+                    {{ collection.title }}
+                  </h1>
+                </div>
+              </header>
+            </div>
           </div>
-        </div>
-                {% endif %}
+        {% endif %}
       </div>
     </div>
   {%- else -%}
@@ -104,16 +105,16 @@
 {%- endif -%}
 
 {% if section.settings.collection_title_below == true and collection.image %}
-    <div class="collection-hero__title">
-        <div class="page-width">
-            <header class="section-header section-header--title">
-                {%- render 'breadcrumbs' -%}
-                <h1 class="section-header__title">
-                    {{ collection.title }}
-                </h1>
-            </header>
-        </div>
+  <div class="collection-hero__title">
+    <div class="page-width">
+      <header class="section-header section-header--title">
+        {%- render 'breadcrumbs' -%}
+        <h1 class="section-header__title">
+          {{ collection.title }}
+        </h1>
+      </header>
     </div>
+  </div>
 {% endif %}
 
 {% schema %}
@@ -162,7 +163,11 @@
     }
   ],
   "disabled_on": {
-    "groups": ["footer", "header", "custom.popups"]
+    "groups": [
+      "footer",
+      "header",
+      "custom.popups"
+    ]
   }
 }
 {% endschema %}

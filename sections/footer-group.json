@@ -55,7 +55,8 @@
       ],
       "disabled": true,
       "settings": {
-        "hide_homepage": false
+        "hide_homepage": false,
+        "image_size": "wide"
       }
     },
     "footer": {
@@ -64,7 +65,7 @@
         "footer-1": {
           "type": "menu",
           "settings": {
-            "show_footer_title": true,
+            "show_footer_title": false,
             "menu": "footer",
             "container_width": 25
           }

@@ -223,10 +223,6 @@ Arguments
         {%- endif -%}
       </div>
 
-        {% if product.tags contains 'new-colors' %}
-            <div class="grid-product__tag--new-colors">New Colors!</div>
-        {% endif %}
-
       <a href="{{ product.url | within: collection }}" class="grid-product__link">
         <div class="grid-product__meta">
           <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
@@ -336,7 +332,11 @@ Arguments
             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
           {%- endif -%}
         </div>
+        {% if product.tags contains 'new-colors' %}
+          <div class="grid-product__tag--new-colors">New Colors!</div>
+        {% endif %}
       </a>
+
     </div>
   </div>
   {%- if settings.enable_swatches and type == blank -%}

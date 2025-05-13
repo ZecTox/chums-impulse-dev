@@ -14,9 +14,9 @@
       "settings": {
         "enable": true,
         "collection_image_enable": true,
-        "parallax": true,
+        "parallax": false,
         "parallax_direction": "top",
-        "collection_title_below": false
+        "collection_title_below": true
       }
     },
     "main-collection": {
@@ -55,10 +55,17 @@
         "enable_swatch_labels": true,
         "enable_sort": true
       }
+    },
+    "collection_footer_gkkyhe": {
+      "type": "collection-footer",
+      "settings": {
+        "enable": true
+      }
     }
   },
   "order": [
     "collection-header",
-    "main-collection"
+    "main-collection",
+    "collection_footer_gkkyhe"
   ]
 }

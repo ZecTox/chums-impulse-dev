@@ -106,8 +106,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/shyonthefly_River_20225307.jpg",
-            "image_mobile": "shopify://shop_images/shyonthefly_River_20225307.jpg",
+            "image": "shopify://shop_images/HERO5.5.jpg",
+            "image_mobile": "shopify://shop_images/HERO5.5.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -286,25 +286,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "text_block_mhyTy9": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/AmyJaneDavid_July2024_07.heic",
-            "image_mask": "rounded",
-            "image_width": 650,
-            "title": "Amy David",
-            "text": "<p>Pro Skier, Backcountry snowmobiler, Creator</p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_gVygM4",
-        "text_block_VHUmEj",
-        "text_block_mhyTy9"
+        "text_block_VHUmEj"
       ],
       "settings": {
         "title": "",

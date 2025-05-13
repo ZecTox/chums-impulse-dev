@@ -79,7 +79,7 @@
     "social_twitter_link": "https://twitter.com/ChumsUSA",
     "social_instagram_link": "https://www.instagram.com/chumsusa",
     "social_youtube_link": "https://www.youtube.com/user/ChumsInc",
-    "favicon": "shopify://shop_images/Chums-Logo-Badge-Red-RGB.png",
+    "favicon": "shopify://shop_images/BoobyBirdLogo_RGB_SQ.jpg",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": false,
     "breadcrumb": false,
@@ -125,6 +125,11 @@
       },
       "1232542678405107163": {
         "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {}
+      },
+      "5017882195547572635": {
+        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
         "disabled": false,
         "settings": {}
       }
@@ -577,7 +582,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".btn.add-to-cart {color: var(--colorBtnPrimary); border-color: var(--colorBtnPrimary); font-weight: 700;}"
+      ".btn.add-to-cart {color: var(--colorBtnPrimary); border-color: var(--colorBtnPrimary); font-weight: 700;}",
+      ".drawer .cart__remove {display: block;}",
+      ".site-nav__link--has-dropdown svg.icon-chevron-down {display: none;}"
     ]
   }
 }
