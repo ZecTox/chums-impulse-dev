@@ -61,6 +61,7 @@
     gap: 1rem;
 }
 
+
 .store-map__response-list {
     flex: 1 1 25%;
 }
@@ -112,6 +113,26 @@
 #store-map--search-results .store-map__customer__name {
     white-space: normal;
     font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+    .store-map__response {
+        flex-direction: column;
+    }
+    .store-map__response-list {
+        order: 2;
+    }
+    .store-map__response-list #store-map--search-results {
+        height: calc(50vh - 1rem);
+        max-height: calc(50vh - 1rem);
+    }
+    .store-map__response-map-container {
+        order: 1;
+    }
+    .store-map__response-map-container #store-map--google-map {
+        height: calc(50vh - 1rem);
+        max-height: calc(50vh - 1rem);
+    }
 }
 
 @media (min-width: 576px) {

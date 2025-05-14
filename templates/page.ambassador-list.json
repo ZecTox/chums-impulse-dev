@@ -243,7 +243,7 @@
             "title": "Amie Engerbretson",
             "text": "<p>Pro Skier, Film Producer, Creator </p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/amie-engerbretson-ambassador-profile"
           }
         }
       },
@@ -286,11 +286,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_ttrd4q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_gVygM4",
-        "text_block_VHUmEj"
+        "text_block_VHUmEj",
+        "text_block_ttrd4q"
       ],
       "settings": {
         "title": "",
