@@ -99,7 +99,7 @@
         "layout": "left",
         "height": 750,
         "framed": false,
-        "parallax": true,
+        "parallax": false,
         "parallax_direction": "top",
         "lazyload_images": true
       }

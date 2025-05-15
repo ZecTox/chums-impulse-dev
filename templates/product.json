@@ -78,6 +78,11 @@
         "product_video_style": "muted"
       }
     },
+    "product_lifestyle_PG9UAz": {
+      "type": "product-lifestyle",
+      "name": "product-lifestyle",
+      "settings": {}
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -132,6 +137,7 @@
   },
   "order": [
     "main",
+    "product_lifestyle_PG9UAz",
     "sub",
     "1699984738c3d73978",
     "product-recommendations",
