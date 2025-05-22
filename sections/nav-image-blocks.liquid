@@ -44,7 +44,11 @@
                       {% if block.settings.link %}
                         <a href="{{ block.settings.link }}" rel="nofollow">
                       {% endif %}
-                        {{ block.settings.image | image_url: width: 1500 | image_tag: class: 'nav-image', loading: 'lazy'}}
+                          {% if block.settings.image %}
+                            {{ block.settings.image | image_url: width: 1500 | image_tag: class: 'nav-image', loading: 'lazy'}}
+                            {% else %}
+                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                          {% endif %}
                       {% if block.settings.link %}
                         </a>
                       {% endif %}
