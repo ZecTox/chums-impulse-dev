@@ -14,6 +14,13 @@
       "disabled": true,
       "settings": {}
     },
+    "page_title_YQER98": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "page_title_visible": false
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -166,6 +173,7 @@
   },
   "order": [
     "main",
+    "page_title_YQER98",
     "faq"
   ]
 }

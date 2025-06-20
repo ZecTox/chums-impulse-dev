@@ -72,6 +72,8 @@
     function buildMarkerContent(customer) {
         const content = document.createElement('div');
         content.classList.toggle('customer-link');
+        content.role = 'button';
+        content.tabIndex = '0';
         const customerName = document.createElement('div');
         customerName.classList.toggle('store-map__customer__name', true);
         customerName.innerText = customer.CustomerName;

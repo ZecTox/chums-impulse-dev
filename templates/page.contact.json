@@ -37,11 +37,21 @@
     "form": {
       "type": "contact-form",
       "settings": {}
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
     }
   },
   "order": [
+    "shogun-helper",
     "main",
     "rich-text",
-    "form"
+    "form",
+    "shogun-optimizer"
   ]
 }

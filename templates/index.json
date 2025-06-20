@@ -19,62 +19,30 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify://blogs/news/stomping-grounds-tyler-woolcott",
+            "link": "shopify://collections/2025-new-products-colors",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/StompingGrounds_Tyler_DesktopHero_3dc33bd7-81d3-40c9-a7bb-fcc170782292.jpg",
-            "image_mobile": "shopify://shop_images/StompingGrounds_Tyler_MobileHero_7332663b-9edb-4225-872f-840a98b4fe86.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_cwtQaT": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify://collections/leather",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Beaded_LeatherRetainers_DesktopHero_38bb1acc-4b60-4966-9d9c-5b3273a144a8.jpg",
-            "image_mobile": "shopify://shop_images/Beaded_LeatherRetainers_MobileHero_51f7da9f-9a92-4111-8e01-2e5006d1bf4d.jpg",
+            "image": "shopify://shop_images/MatchSomeRays_DesktopHero_6e837be6-81bb-42c3-96ed-2f0bd944c38b.jpg",
+            "image_mobile": "shopify://shop_images/MatchSomeRays_MobileHero_7bb1ecff-66e6-4892-82f6-ed720c8bb8a4.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slideshow-0",
-        "image_cwtQaT"
+        "slideshow-0"
       ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7,
-        "lazyload_images": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New 2024 Styles",
-        "home_featured_products": "2024-products",
-        "per_row": 5,
-        "rows": 5,
-        "mobile_scrollable": false,
-        "view_all": false,
-        "divider": false
+        "lazyload_images": false
       }
     },
     "rich-text": {
@@ -96,14 +64,123 @@
         "divider": false
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP New Styles & Colors",
+        "home_featured_products": "2025-new-products-colors",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": false,
+        "divider": true
+      }
+    },
+    "text_columns_Rqz449": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_HMTPJg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-Retainers.jpg",
+            "image_mask": "square",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/chums"
+          }
+        },
+        "text_block_da7BwP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-Wallets.jpg",
+            "image_mask": "square",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/wallets"
+          }
+        },
+        "text_block_DYHA8h": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-Bags.jpg",
+            "image_mask": "square",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/bags-1"
+          }
+        },
+        "text_block_VphpqT": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-Apparel.jpg",
+            "image_mask": "square",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/apparel"
+          }
+        },
+        "text_block_zXxwPN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-Accessories.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/outdoor-accessories"
+          }
+        },
+        "text_block_ftwTqh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Homepage_Category_Images-New.jpg",
+            "image_mask": "square",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://collections/2025-new-products-colors"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_HMTPJg",
+        "text_block_da7BwP",
+        "text_block_DYHA8h",
+        "text_block_VphpqT",
+        "text_block_zXxwPN",
+        "text_block_ftwTqh"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "shop by category",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "featured_collection_aAB9dQ": {
       "type": "featured-collection",
       "settings": {
         "title": "Customer Favorites",
         "home_featured_products": "best-selling-eyewear-retainers",
-        "per_row": 5,
+        "per_row": 4,
         "rows": 1,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": false,
         "divider": false
       }
@@ -149,10 +226,10 @@
       "settings": {
         "title": "",
         "home_featured_products": "wallets",
-        "per_row": 5,
+        "per_row": 4,
         "rows": 1,
         "mobile_scrollable": false,
-        "view_all": false,
+        "view_all": true,
         "divider": false
       }
     },
@@ -170,46 +247,16 @@
         "blog_image_size": "wide",
         "divider": false
       }
-    },
-    "1710957541a9b8e659": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_FRkLzt": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_FRkLzt"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection",
     "rich-text",
+    "featured-collection",
+    "text_columns_Rqz449",
     "featured_collection_aAB9dQ",
     "slideshow_3hRaVr",
     "featured_collection_YjUiXQ",
-    "blog-posts",
-    "1710957541a9b8e659"
+    "blog-posts"
   ]
 }

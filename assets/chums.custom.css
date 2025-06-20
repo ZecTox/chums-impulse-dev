@@ -46,7 +46,7 @@ details[open] > .site-nav__dropdown-has-image div.site-nav__dropdown-image img {
 
 .product__thumbs.product__thumbs--below .product__thumbs--scroller {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .collection-hero__title {

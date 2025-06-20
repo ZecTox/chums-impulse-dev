@@ -9,6 +9,13 @@
  */
 {
   "sections": {
+    "page_title_UNJ4Wr": {
+      "type": "page-title",
+      "name": "Page Title",
+      "settings": {
+        "page_title_visible": false
+      }
+    },
     "advanced_content_t8bcn8": {
       "type": "advanced-content",
       "blocks": {
@@ -33,31 +40,6 @@
         "space_around": false,
         "lazyload_images": true
       }
-    },
-    "rich_text_L3YQeF": {
-      "type": "rich-text",
-      "blocks": {
-        "text_GDLyxx": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "{{ page.content }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_GDLyxx"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {}
     },
     "rich_text_9FfzNf": {
       "type": "rich-text",
@@ -101,12 +83,16 @@
         "heading_WxLMkz",
         "text_rrt8g7"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
     },
     "featured_collection_4XWqNz": {
       "type": "featured-collection",
@@ -122,11 +108,11 @@
     }
   },
   "order": [
+    "page_title_UNJ4Wr",
     "advanced_content_t8bcn8",
-    "rich_text_L3YQeF",
-    "main",
     "rich_text_9FfzNf",
     "rich_text_df6NtV",
+    "main",
     "featured_collection_4XWqNz"
   ]
 }

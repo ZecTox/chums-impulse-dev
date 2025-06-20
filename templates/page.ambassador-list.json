@@ -12,7 +12,17 @@
     "main": {
       "type": "main-page",
       "disabled": true,
+      "custom_css": [
+        ".ambassador-link {color: var(--chums-red);}"
+      ],
       "settings": {}
+    },
+    "page_title_MiMkeC": {
+      "type": "page-title",
+      "name": "page-title",
+      "settings": {
+        "page_title_visible": false
+      }
     },
     "slideshow_nwBxwH": {
       "type": "slideshow",
@@ -123,7 +133,7 @@
       "settings": {
         "section_height": "450px",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
@@ -163,7 +173,7 @@
             "title": "Eeland Stribling",
             "text": "<p>Angler, Wildlife Biologist, Stand-Up Comedian</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/eeland-stribling-ambassador-profile"
           }
         },
         "text_block_ME6nEm": {
@@ -176,7 +186,7 @@
             "title": "Jean-Marie Bousquet",
             "text": "<p>Angler, Adventurer, Sustainability Advocate</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/jean-marie-bousquet-ambassador-profile"
           }
         },
         "text_block_f4fAfw": {
@@ -189,7 +199,7 @@
             "title": "The So Fly Crew",
             "text": "<p>Anglers, SoFly Podcast Hosts, Explorers </p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/sofly-crew-ambassador-profile"
           }
         }
       },
@@ -217,7 +227,7 @@
             "title": "Joseph Evans",
             "text": "<p>Angler, Fly Fishing Guide, Creator </p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/joseph-evans-ambassador-profile"
           }
         },
         "text_block_dGx9f7": {
@@ -230,7 +240,7 @@
             "title": "Shyanne Orvis",
             "text": "<p>Angler, Fly Fishing Guide, Author </p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/shyanne-orvis-ambassador-profile"
           }
         },
         "text_block_KHpcQa": {
@@ -271,7 +281,7 @@
             "title": "Tyler Woolcott",
             "text": "<p>Angler, USCG Licensed Captain, Fishing Guide </p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/tyler-woolcott-ambassador-profile"
           }
         },
         "text_block_VHUmEj": {
@@ -284,7 +294,7 @@
             "title": "Jonathan Moss",
             "text": "<p>Angler, Fishing Guide, The Captain's Log TV Show Host</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify://pages/jonathan-moss-ambassador-profile"
           }
         },
         "text_block_ttrd4q": {
@@ -314,6 +324,7 @@
   },
   "order": [
     "main",
+    "page_title_MiMkeC",
     "slideshow_nwBxwH",
     "rich_text_9FfzNf",
     "text_columns_ddaGNf",
